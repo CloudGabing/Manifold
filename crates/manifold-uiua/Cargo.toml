@@ -1,0 +1,11 @@
+[package]
+name = "manifold-uiua"
+version = "4.2.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+anyhow = "1.0"
+manifold-runtime = { path = "../manifold-runtime" }
+manifold-types = { path = "../manifold-types" }
+async-trait = "0.1"

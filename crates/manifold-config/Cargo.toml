@@ -1,0 +1,11 @@
+[package]
+name = "manifold-config"
+version = "4.2.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_yaml = "0.9"
+thiserror = "1.0"
+manifold-types = { path = "../manifold-types" }

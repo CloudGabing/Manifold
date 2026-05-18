@@ -1,0 +1,18 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/manifold-cli",
+    "crates/manifold-config",
+    "crates/manifold-store",
+    "crates/manifold-types",
+    "crates/manifold-runtime",
+    "crates/manifold-pdk",
+    "crates/manifold-uiua",
+]
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true
