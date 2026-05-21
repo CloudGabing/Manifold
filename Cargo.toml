@@ -8,6 +8,7 @@ members = [
     "crates/manifold-runtime",
     "crates/manifold-pdk",
     "crates/manifold-uiua",
+    "examples/transformer",
 ]
 
 [profile.release]
